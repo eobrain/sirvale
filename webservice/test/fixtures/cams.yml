@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  url: 
+  media_type: 
+  interestingness: 
+  is_up: false
+
+two:
+  url: 
+  media_type: 
+  interestingness: 
+  is_up: false

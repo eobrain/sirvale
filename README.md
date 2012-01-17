@@ -7,7 +7,7 @@ http://api.sirvale.com/1/list
 [
   {
     "url" : string-url,
-    "type" : "swf"/"...",
+    "media_type" : "swf"/"...",
     "interestingness": number,
     "isUp": boolean
   },
@@ -21,30 +21,21 @@ http://api.sirvale.com/1/list
 CamList
 
 </th></tr><tr><td>
-
-* cams
-* lastUpdated
-
+cams<br/>
+lastFetchedTime<br/>
 </td></tr><tr><td>
-
-* updateIfNecessary()
-
+fetchIfNecessary()<br/>
 </td></tr></table>
+
 <table><tr><th>
-
 Cam
-
 </th></tr><tr><td>
-
-* url
-* type
-* score
-* isUp
-
+url<br/>
+media_type<br/>
+interestingness<br/>
+isUp<br/>
 </td></tr><tr><td>
-
-* viewed()
-
+viewed()<br/>
 </td></tr></table>
 
 
